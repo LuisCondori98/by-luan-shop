@@ -609,6 +609,7 @@ a {
   }
   .container__productos div {
     background-color: rgba(255, 255, 255, 0.76);
+    text-align: center;
   }
   .container__productos div .button__comprar {
     display: flex;
@@ -633,10 +634,10 @@ a {
     color: white;
   }
   .container__productos div img {
-    height: 160px;
+    height: 170px;
     border-radius: 10px;
     margin: auto;
-    width: 100%;
+    width: 85%;
     padding: 5px;
   }
   .container__epd {
