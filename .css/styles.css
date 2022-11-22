@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (min-width: 1280px) {
+  body {
+    background-image: url(../img/fondo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .container__logo {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-image: radial-gradient(circle at 120.71% 50%, #ffb2f8 0, #ffb0eb 3.33%, #ffaede 6.67%, #ffadd0 10%, #ffaec3 13.33%, #ffafb6 16.67%, #ffb1aa 20%, #ffb59e 23.33%, #ffb893 26.67%, #ffbd89 30%, #ffc181 33.33%, #ffc67a 36.67%, #ffcb75 40%, #fdcf72 43.33%, #f1d471 46.67%, #e4d872 50%, #d7dc75 53.33%, #c8e07a 56.67%, #bae381 60%, #aae68a 63.33%, #9ae894 66.67%, #89eaa0 70%, #76ecac 73.33%, #61edb9 76.67%, #48eec6 80%, #5edad0 83.33%, #00efe2 86.67%, #00efef 90%, #00effc 93.33%, #00eeff 96.67%, #00ecff 100%);
+  }
+  .collapse {
+    justify-content: center;
+    margin-right: 85px;
+  }
+  .collapse ul {
+    gap: 30px;
+  }
+  h1 {
+    font-size: 35px;
+    text-align: center;
+    background-color: rgba(212, 60, 60, 0.7607843137);
+    margin: 50px;
+    padding: 30px;
+    color: white;
+  }
+  .container__presentation {
+    background-color: rgba(206, 140, 114, 0.747);
+    margin: 80px;
+    margin: auto;
+    width: 93%;
+    color: white;
+  }
+  .container__presentation div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+  }
+  .container__presentation div img {
+    height: 20px;
+    padding: 5px;
+    background: black;
+  }
+  .container__presentation div p {
+    width: 500px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+  }
+  .carousel {
+    background-color: rgba(5, 5, 5, 0);
+    margin: 50px;
+  }
+  .carousel img {
+    margin: auto;
+    width: 40%;
+    padding: 20px;
+    height: 560px;
+  }
+  .carousel div {
+    background-color: rgba(0, 0, 0, 0.725);
+  }
+  footer {
+    background-color: black;
+  }
+  footer .container__footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .container__footer div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-self: center;
+  }
+  footer .container__footer div a {
+    color: white;
+  }
+  footer .container__footer div label {
+    color: white;
+  }
+  footer .container__footer div input {
+    width: 300px;
+    border-radius: 50px;
+    padding: 5px;
+  }
+  footer .copyright label {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+}
+@media (min-width: 770px) and (max-width: 1279px) {
+  body {
+    background-image: url(../img/fondo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .container__logo {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-image: radial-gradient(circle at 120.71% 50%, #ffb2f8 0, #ffb0eb 3.33%, #ffaede 6.67%, #ffadd0 10%, #ffaec3 13.33%, #ffafb6 16.67%, #ffb1aa 20%, #ffb59e 23.33%, #ffb893 26.67%, #ffbd89 30%, #ffc181 33.33%, #ffc67a 36.67%, #ffcb75 40%, #fdcf72 43.33%, #f1d471 46.67%, #e4d872 50%, #d7dc75 53.33%, #c8e07a 56.67%, #bae381 60%, #aae68a 63.33%, #9ae894 66.67%, #89eaa0 70%, #76ecac 73.33%, #61edb9 76.67%, #48eec6 80%, #5edad0 83.33%, #00efe2 86.67%, #00efef 90%, #00effc 93.33%, #00eeff 96.67%, #00ecff 100%);
+  }
+  .collapse {
+    justify-content: center;
+    margin-right: 85px;
+  }
+  .collapse ul {
+    gap: 30px;
+  }
+  h1 {
+    font-size: 35px;
+    text-align: center;
+    background-color: rgba(212, 60, 60, 0.7607843137);
+    margin: 50px;
+    padding: 30px;
+    color: white;
+  }
+  .container__presentation {
+    background-color: rgba(121, 195, 149, 0.747);
+    margin: 80px;
+    margin: auto;
+    width: 93%;
+    color: white;
+  }
+  .container__presentation div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+  }
+  .container__presentation div img {
+    height: 600px;
+    padding: 5px;
+    background: black;
+  }
+  .container__presentation div p {
+    width: 500px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+  }
+  .carousel {
+    background-color: rgba(5, 5, 5, 0);
+    margin: 50px;
+  }
+  .carousel img {
+    margin: auto;
+    width: 40%;
+    padding: 20px;
+    height: 560px;
+  }
+  .carousel div {
+    background-color: rgba(0, 0, 0, 0.725);
+  }
+  footer {
+    background-color: rgb(235, 13, 13);
+    padding: 10px;
+  }
+  footer ul, footer li {
+    list-style: none;
+    align-content: center;
+  }
+  footer ul a, footer li a {
+    text-decoration: none;
+    color: white;
+  }
+  footer ul a:hover, footer li a:hover {
+    color: red;
+  }
+}
+@media (min-width: 481px) and (max-width: 769px) {
+  body {
+    background-image: url(../img/fondo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .container__logo {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-image: radial-gradient(circle at 120.71% 50%, #ffb2f8 0, #ffb0eb 3.33%, #ffaede 6.67%, #ffadd0 10%, #ffaec3 13.33%, #ffafb6 16.67%, #ffb1aa 20%, #ffb59e 23.33%, #ffb893 26.67%, #ffbd89 30%, #ffc181 33.33%, #ffc67a 36.67%, #ffcb75 40%, #fdcf72 43.33%, #f1d471 46.67%, #e4d872 50%, #d7dc75 53.33%, #c8e07a 56.67%, #bae381 60%, #aae68a 63.33%, #9ae894 66.67%, #89eaa0 70%, #76ecac 73.33%, #61edb9 76.67%, #48eec6 80%, #5edad0 83.33%, #00efe2 86.67%, #00efef 90%, #00effc 93.33%, #00eeff 96.67%, #00ecff 100%);
+  }
+  .collapse {
+    justify-content: center;
+    margin-right: 85px;
+  }
+  .collapse ul {
+    gap: 30px;
+  }
+  h1 {
+    font-size: 35px;
+    text-align: center;
+    background-color: rgba(212, 60, 60, 0.7607843137);
+    margin: 50px;
+    padding: 30px;
+    color: white;
+  }
+  .container__presentation {
+    background-color: rgba(121, 195, 149, 0.747);
+    margin: 80px;
+    margin: auto;
+    width: 93%;
+    color: white;
+  }
+  .container__presentation div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+  }
+  .container__presentation div img {
+    height: 600px;
+    padding: 5px;
+    background: black;
+  }
+  .container__presentation div p {
+    width: 500px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+  }
+  .carousel {
+    background-color: rgba(5, 5, 5, 0);
+    margin: 50px;
+  }
+  .carousel img {
+    margin: auto;
+    width: 40%;
+    padding: 20px;
+    height: 560px;
+  }
+  .carousel div {
+    background-color: rgba(0, 0, 0, 0.725);
+  }
+  footer {
+    background-color: rgb(235, 13, 13);
+    padding: 10px;
+  }
+  footer ul, footer li {
+    list-style: none;
+    align-content: center;
+  }
+  footer ul a, footer li a {
+    text-decoration: none;
+    color: white;
+  }
+  footer ul a:hover, footer li a:hover {
+    color: red;
+  }
+}
+@media (min-width: 1px) and (max-width: 480px) {
+  body {
+    background-image: url(../img/fondo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .container__logo {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-image: radial-gradient(circle at 120.71% 50%, #ffb2f8 0, #ffb0eb 3.33%, #ffaede 6.67%, #ffadd0 10%, #ffaec3 13.33%, #ffafb6 16.67%, #ffb1aa 20%, #ffb59e 23.33%, #ffb893 26.67%, #ffbd89 30%, #ffc181 33.33%, #ffc67a 36.67%, #ffcb75 40%, #fdcf72 43.33%, #f1d471 46.67%, #e4d872 50%, #d7dc75 53.33%, #c8e07a 56.67%, #bae381 60%, #aae68a 63.33%, #9ae894 66.67%, #89eaa0 70%, #76ecac 73.33%, #61edb9 76.67%, #48eec6 80%, #5edad0 83.33%, #00efe2 86.67%, #00efef 90%, #00effc 93.33%, #00eeff 96.67%, #00ecff 100%);
+  }
+  .container__logo img {
+    height: 100px;
+  }
+  .collapse {
+    justify-content: center;
+    margin-right: 85px;
+  }
+  h1 {
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(212, 60, 60, 0.7607843137);
+    margin-bottom: 0;
+    padding: 30px;
+    color: white;
+  }
+  .container__presentation {
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto;
+    color: white;
+  }
+  .container__presentation div {
+    padding: 2px;
+  }
+  .container__presentation div img {
+    height: 250px;
+    margin: auto;
+    width: 100%;
+    padding: 5px;
+    background: black;
+  }
+  .container__presentation div p {
+    text-align: center;
+    margin: auto;
+    width: 150px;
+    color: black;
+    font-size: 12px;
+  }
+  .container__presentation div a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+  }
+  .container__presentation div a label {
+    background-color: black;
+    text-align: center;
+    padding: 2px;
+    font-size: 10px;
+    border-radius: 5px;
+  }
+  .carousel {
+    background-color: rgba(5, 5, 5, 0);
+  }
+  .carousel img {
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+    height: 300px;
+  }
+  .carousel div {
+    background-color: rgba(0, 0, 0, 0.725);
+  }
+  footer {
+    background-color: black;
+  }
+  footer a {
+    text-decoration: none;
+    color: white;
+  }
+}
+/*# sourceMappingURL=main.scss.map */
+
+/*# sourceMappingURL=styles.css.map */
