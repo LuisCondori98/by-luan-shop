@@ -16,6 +16,16 @@ a {
     background-attachment: fixed;
   }
 
+  .info__cabecera {
+    position: absolute;
+    margin-left: 1340px;
+    margin-top: 10px;
+    align-items: center;
+      img {
+        height: 25px;
+      }
+  }
+
   .container__logo {
     display: flex;
     justify-content: center;
@@ -92,7 +102,6 @@ a {
   }
 
   .carousel {
-    background-color: rgba(5, 5, 5, 0);
       img {
         margin: auto;
         width: 40%;
@@ -102,6 +111,25 @@ a {
       div {
         background-color: rgba(0, 0, 0, 0.607);
       }
+      & .carousel-indicators {
+        background-color: rgba(0, 0, 0, 0);
+        button {
+          padding: 3px;
+          border-radius: 100%;
+          width: 5px;
+        }
+      }
+  }
+  
+  .envios {
+    background-color: rgb(163, 20, 20);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    label {
+      font-size: 25px;
+    }
   }
 
   .container__productos {
@@ -179,6 +207,9 @@ a {
         margin-left: 113px;
         img {
           height: 40px;
+          &:hover {
+            transform: scale(1.21);
+          }
           a {
             gap: 120px;
           }
@@ -584,6 +615,19 @@ a {
     }
   }
 
+  .info__cabecera {
+    position: absolute;
+    margin-left: 268px;
+    margin-top: 5px;
+    align-items: center;
+      label {
+        font-size: 10px;
+      }
+      img {
+        height: 20px;
+      }
+  }
+
   .collapse {
     justify-content: center;
     margin-right: 50px;
@@ -658,6 +702,13 @@ a {
       }
       div {
         background-color: rgba(0, 0, 0, 0.725);
+      }& .carousel-indicators {
+        background-color: rgba(0, 0, 0, 0);
+        button {
+          padding: 3px;
+          border-radius: 100%;
+          width: 5px;
+        }
       }
   }
 
