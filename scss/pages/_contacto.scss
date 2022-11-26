@@ -8,6 +8,11 @@
         justify-content: space-around;
         img {
           height: 560px;
+          padding: 5px;
+          background-color: black;
+        }
+        img:hover{
+          filter: grayscale(60%);
         }
       }
       span {
