@@ -1160,7 +1160,12 @@ p {
     text-align: center;
   }
   .container__blog div img {
+    margin-top: 80px;
+    margin-bottom: 80px;
     height: 190px;
+    padding: 20px;
+  }
+  .container__blog div h2 {
     padding: 20px;
   }
 }
