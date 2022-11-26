@@ -909,10 +909,6 @@ p {
     background-color: black;
     font-size: 13px;
   }
-  .container__productos div .button__comprar button:hover {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-  }
   .container__productos div img {
     height: 10px;
     margin: auto;
@@ -944,6 +940,7 @@ p {
     margin: 8px;
     background-color: rgba(255, 255, 255, 0.76);
     border-radius: 28px;
+    height: 285px;
   }
   .container__productos div .button__comprar {
     display: flex;
@@ -972,7 +969,7 @@ p {
     color: rgb(0, 0, 0);
   }
   .container__productos div img {
-    height: 230px;
+    height: 170px;
     margin: auto;
     width: 100%;
     padding: 15px;
@@ -1072,8 +1069,64 @@ p {
   }
 }
 @media (min-width: 1280px) {
+  .container__preguntas {
+    background-color: rgba(12, 12, 12, 0.744);
+    padding: 20px;
+  }
+  .container__preguntas div button {
+    margin-top: 25px;
+    background-color: rgb(85, 138, 80);
+    color: white;
+    font-size: 25px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1280px) {
+  .container__preguntas {
+    background-color: rgba(12, 12, 12, 0.744);
+    padding: 20px;
+  }
+  .container__preguntas div button {
+    margin-top: 25px;
+    background-color: rgb(85, 138, 80);
+    color: white;
+    font-size: 20px;
+  }
+  .container__preguntas .accordion-body {
+    font-size: 17px;
+  }
+}
+@media (min-width: 480px) and (max-width: 769px) {
+  .container__preguntas {
+    background-color: rgba(12, 12, 12, 0.744);
+    padding: 20px;
+  }
+  .container__preguntas div button {
+    margin-top: 25px;
+    background-color: rgb(85, 138, 80);
+    color: white;
+    font-size: 18px;
+  }
+  .container__preguntas .accordion-body {
+    font-size: 15px;
+  }
+}
+@media (min-width: 1px) and (max-width: 480px) {
+  .container__preguntas {
+    background-color: rgba(12, 12, 12, 0.744);
+    padding: 20px;
+  }
+  .container__preguntas div button {
+    background-color: rgb(85, 138, 80);
+    color: white;
+    font-size: 15px;
+  }
+  .container__preguntas .accordion-body {
+    font-size: 13px;
+  }
+}
+@media (min-width: 1280px) {
   .ubicacion {
-    background-color: rgb(238, 232, 221);
+    background-color: rgb(223, 209, 183);
     padding: 25px;
     font-family: "Times New Roman", Times, serif;
   }
@@ -1114,9 +1167,103 @@ p {
     height: 300px;
   }
 }
+@media (min-width: 769px) and (max-width: 1280px) {
+  .ubicacion {
+    background-color: rgb(223, 209, 183);
+    padding: 25px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .ubicacion article {
+    display: flex;
+    justify-content: space-around;
+  }
+  .ubicacion article img {
+    height: 450px;
+  }
+  .ubicacion span {
+    display: flex;
+    align-items: center;
+  }
+  .ubicacion span img {
+    height: 80px;
+    width: 80px;
+  }
+  .ubicacion div {
+    padding: 25px;
+    display: flex;
+  }
+  .ubicacion div img {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: rgb(221, 22, 22);
+    padding: 10px;
+    height: 50px;
+  }
+  .ubicacion div h2 {
+    font-size: 25px;
+    margin-left: 60px;
+  }
+  .ubicacion h1 {
+    padding: 25px;
+  }
+  .ubicacion iframe {
+    width: 100%;
+    height: 300px;
+  }
+}
+@media (min-width: 480px) and (max-width: 769px) {
+  .ubicacion {
+    background-color: rgb(223, 209, 183);
+    padding: 25px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .ubicacion article {
+    display: flex;
+    justify-content: space-around;
+  }
+  .ubicacion article img {
+    height: 330px;
+  }
+  .ubicacion span {
+    display: flex;
+    align-items: center;
+  }
+  .ubicacion span img {
+    height: 80px;
+    width: 80px;
+  }
+  .ubicacion div {
+    padding: 25px;
+    display: flex;
+  }
+  .ubicacion div img {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: rgb(221, 22, 22);
+    padding: 10px;
+    height: 50px;
+  }
+  .ubicacion div h2 {
+    align-self: center;
+    font-size: 22px;
+    margin-left: 50px;
+  }
+  .ubicacion h1 {
+    padding: 25px;
+  }
+  .ubicacion iframe {
+    width: 100%;
+    height: 300px;
+  }
+}
+@media (min-width: 480px) and (max-width: 590px) {
+  .ubicacion article img {
+    height: 280px;
+  }
+}
 @media (min-width: 1px) and (max-width: 480px) {
   .ubicacion {
-    background-color: rgb(238, 232, 221);
+    background-color: rgb(223, 209, 183);
     padding: 25px;
     font-family: "Times New Roman", Times, serif;
   }
@@ -1147,6 +1294,7 @@ p {
     border-color: rgb(221, 22, 22);
     padding: 10px;
     height: 40px;
+    align-self: center;
   }
   .ubicacion div h2 {
     margin-left: 20px;
