@@ -1,0 +1,238 @@
+@media (min-width: 1280px){
+  .main__cabecera {
+    border-bottom-style: ridge;
+    span {
+      position:absolute;
+      margin-bottom: 0;
+      margin-top: 280px;
+      margin-left: 20px;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.358);
+      border-radius: 30px;
+      width: 43%;
+      padding: 15px;
+      h3 {
+        font-size: 25px;
+      }
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.656);
+        color: black;
+      }
+    }
+    img {
+      width: 100%;
+      height: 650px;
+    }
+  }
+
+  .container__presentation {
+    margin: auto;
+    width: 93%;
+    color: white;
+    div {
+      display: flex;
+      justify-content:space-around;
+      align-items: center;
+      padding: 30px;
+      img {
+        height: 400px;
+        padding: 5px;
+        background: black;
+      }
+      p{
+        width: 500px;
+        text-align: center;
+        align-content: center ;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+  .main__cabecera {
+    border-bottom-style: ridge;
+    span {
+      position:absolute;
+      margin-bottom: 0;
+      margin-top: 180px;
+      margin-left: 20px;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.358);
+      border-radius: 30px;
+      width: 43%;
+      padding: 15px;
+      h3 {
+        font-size: 25px;
+      }
+    }
+    img {
+      width: 100%;
+      height: 535px;
+    }
+  }
+
+  .container__presentation {
+    background-color: rgba(206, 140, 114, 0.747);
+    margin: 80px;
+    margin: auto;
+    width: 93%;
+    color: white;
+    div {
+      display: flex;
+      justify-content:space-around;
+      align-items: center;
+      padding: 30px;
+      img {
+        height: 400px;
+        padding: 5px;
+        background: black;
+      }
+      p{
+        width: 500px;
+        text-align: center;
+        align-content: center ;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 866px) {
+  .main__cabecera {
+    span {
+      position:absolute;
+      margin-bottom: 0;
+      margin-top: 100px;
+      margin-left: 20px;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.358);
+      border-radius: 30px;
+      width: 43%;
+      padding: 15px;
+      h3 {
+        font-size: 18px;
+      }
+    }
+    img {
+      width: 100%;
+      height: 450px;
+    }
+  }
+}
+
+@media (min-width: 481px) and (max-width: 769px) {
+  .main__cabecera {
+    border-bottom-style: ridge;
+    span {
+      position:absolute;
+      margin-bottom: 0;
+      margin-top: 75px;
+      margin-left: 20px;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.358);
+      border-radius: 30px;
+      width: 43%;
+      padding: 15px;
+      h3 {
+        font-size: 14px;
+      }
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.656);
+        color: black;
+      }
+    }
+    img {
+      width: 100%;
+      height: 350px;
+    }
+  }
+
+  .container__presentation {
+    background-color: rgba(206, 140, 114, 0.747);
+    margin: 80px;
+    margin: auto;
+    width: 93%;
+    color: white;
+    div {
+      display: flex;
+      justify-content:space-around;
+      align-items: center;
+      padding: 30px;
+      img {
+        height: 400px;
+        padding: 5px;
+        background: black;
+      }
+      p{
+        width: 500px;
+        text-align: center;
+        align-content: center ;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@media (min-width: 1px) and (max-width: 480px) {
+  .main__cabecera {
+    border-bottom-style: ridge;
+    span {
+      position:absolute;
+      margin-bottom: 0;
+      margin-top: 25px;
+      margin-left: 11px;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.358);
+      border-radius: 30px;
+      width: 55%;
+      padding: 15px;
+      h1 {
+        font-size: 20px;
+      }
+      h3 {
+        font-size: 13px;
+      }
+    }
+    img {
+      width: 100%;
+      height: 225px;
+    }
+  }
+
+  .envios {
+    background-color:#9e1d1d;
+    color: white;
+    text-align: center;
+    label {
+      font-style: oblique;
+    }
+    img {
+      height: 50px;
+    }
+  }
+
+  .container__presentation {
+    background-color: rgba(206, 140, 114, 0.747);
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    div {
+      padding: 7px;
+      img {
+        width: 180px;
+        height: 150px;
+        padding: 5px;
+        background: black;
+      }
+      p{
+        width: 500px;
+        text-align: center;
+        align-content: center ;
+        justify-content: center;
+      }
+    }
+  }
+}
+

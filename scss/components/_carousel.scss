@@ -1,0 +1,116 @@
+@media (min-width: 1280px) {
+    .carousel {
+        img {
+        margin: auto;
+        width: 40%;
+        padding: 20px;
+        height: 545px;
+        }
+        div {
+        background-color: rgba(0, 0, 0, 0.607);
+        }
+        & .carousel-indicators {
+        background-color: rgba(0, 0, 0, 0);
+        button {
+            padding: 3px;
+            border-radius: 100%;
+            width: 5px;
+        }
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+.carousel {
+    background-color: rgba(5, 5, 5, 0);
+      img {
+        margin: auto;
+        width: 45%;
+        padding: 20px;
+        height: 415px;
+      }
+      div {
+        background-color: rgba(0, 0, 0, 0.607);
+      }
+      & .carousel-indicators {
+        background-color: rgba(0, 0, 0, 0);
+        button {
+          padding: 3px;
+          border-radius: 100%;
+          width: 5px;
+        }
+      }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 866px) {
+
+  .carousel {
+    background-color: rgba(5, 5, 5, 0);
+      img {
+        margin: auto;
+        width: 55%;
+        padding: 20px;
+        height: 405px;
+      }
+      div {
+        background-color: rgba(0, 0, 0, 0.607);
+      }
+      & .carousel-indicators {
+        background-color: rgba(0, 0, 0, 0);
+        button {
+          padding: 3px;
+          border-radius: 100%;
+          width: 5px;
+        }
+        display: none;
+      }
+  }
+}
+
+@media (min-width: 481px) and (max-width: 769px) {
+  .carousel {
+    background-color: rgba(5, 5, 5, 0);
+      img {
+        margin: auto;
+        width: 50%;
+        padding: 20px;
+        height: 320px;
+      }
+      div {
+        background-color: rgba(0, 0, 0, 0.607);
+      }
+      & .carousel-indicators {
+        background-color: rgba(0, 0, 0, 0);
+        button {
+          padding: 3px;
+          border-radius: 100%;
+          width: 5px;
+        }
+        display: none;
+      }
+  }
+}
+
+@media (min-width: 1px) and (max-width: 480px) {
+
+  .carousel {
+    background-color: rgba(5, 5, 5, 0);
+      img {
+        margin: auto;
+        width: 65%;
+        height: 240px;
+      }
+      div {
+        background-color: rgb(51, 138, 204);
+      }& .carousel-indicators {
+        background-color: rgba(0, 0, 0, 0);
+        button {
+          padding: 3px;
+          border-radius: 100%;
+          width: 5px;
+        }
+        display: none;
+      }
+  }
+}

@@ -1,0 +1,246 @@
+@media (min-width: 1280px) {
+    footer {
+        background-image: radial-gradient(circle at 17.29% 47.14%, #3a3b3d 0, #353534 12.5%, #2c2c29 25%, #20211a 37.5%, #101403 50%, #000000 62.5%, #000000 75%, #000000 87.5%, #000000 100%);
+        .container__footer {
+        display: flex;
+        justify-content:space-between;
+        h3 {
+            font-size: 20px;
+            color: white;
+        }
+        .container__redes {
+            margin-left: 113px;
+            text-align: center;
+            span {
+              color: white;
+            }
+            img {
+              height: 40px;
+              &:hover {
+                  transform: scale(1.21);
+              }
+            }
+        }
+        div {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            align-self: center;
+            label {
+            color: white;
+            }
+            input {
+            width: 300px;
+            border-radius: 50px;
+            padding: 5px;
+            }
+        }
+        }
+    }
+
+    footer .copyright {
+        label {
+            display: flex;
+            justify-content: center;
+            color: white;
+            padding: 10px;
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+
+    footer {
+      background-image: radial-gradient(circle at 17.29% 47.14%, #3a3b3d 0, #353534 12.5%, #2c2c29 25%, #20211a 37.5%, #101403 50%, #000000 62.5%, #000000 75%, #000000 87.5%, #000000 100%);
+      .container__footer {
+      display: flex;
+      justify-content:space-between;
+        h3 {
+          font-size: 20px;
+          color: white;
+        }
+        .container__redes {
+          text-align: center;
+          margin-left: 90px;
+          span {
+            color: white;
+          }
+          img {
+            height: 40px;
+            &:hover {
+              transform: scale(1.21);
+            }
+            a {
+              gap: 120px;
+            }
+          }
+        }
+        div {
+          display: flex;
+          flex-direction: column;
+          padding: 20px;
+          align-self: center;
+          a {
+            color: white;
+          }
+          label {
+            color: white;
+          }
+          input {
+            width: 280px;
+            border-radius: 50px;
+            padding: 5px;
+          }
+        }
+      }
+    }
+  
+    footer .copyright {
+      label {
+        display: flex;
+        justify-content: center;
+        color: white;
+        padding: 10px;
+      }
+    }
+  }
+
+@media (min-width: 768px) and (max-width: 866px) {
+  footer {
+    .container__footer {
+      h3 {
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+      }
+      .container__redes {
+        margin-left: 67px;
+        text-align: center;
+        img {
+          height: 35px;
+          &:hover {
+            transform: scale(1.21);
+          }
+          a {
+            gap: 120px;
+          }
+        }
+      }
+      div{
+        input {
+              width: 250px;
+              border-radius: 50px;
+        }
+      }
+    }
+  }
+
+  footer .copyright {
+    label {
+      display: flex;
+      justify-content: center;
+      color: white;
+      font-size: 15px;
+    }
+  }
+}
+
+@media (min-width: 481px) and (max-width: 769px) {  
+  footer {
+    background-image: radial-gradient(circle at 17.29% 47.14%, #3a3b3d 0, #353534 12.5%, #2c2c29 25%, #20211a 37.5%, #101403 50%, #000000 62.5%, #000000 75%, #000000 87.5%, #000000 100%);
+    .container__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+      .container__redes {
+        line-height: 40px;
+        span {
+            color: white;
+            padding: 0;
+        }
+        img {
+          height: 37px;
+        }
+      }
+      h3 {
+        font-size: 20px;
+        color: white;
+        margin-top: 30px;
+      }
+      div {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        text-align: center;
+        label {
+          color: white;
+          font-size: 15px;
+        }
+        input {
+          width: 300px;
+          border-radius: 50px;
+          padding: 5px;
+        }
+      }
+    }
+  }
+
+  footer .copyright {
+    label {
+      display: flex;
+      justify-content: center;
+      color: white;
+      padding: 30px;
+      font-size: 14px;
+    }
+  }
+}
+
+@media (min-width: 1px) and (max-width: 480px) {
+  footer {
+    background-image: radial-gradient(circle at 17.29% 47.14%, #3a3b3d 0, #353534 12.5%, #2c2c29 25%, #20211a 37.5%, #101403 50%, #000000 62.5%, #000000 75%, #000000 87.5%, #000000 100%);
+    .container__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .container__redes {
+      line-height: 40px;
+      span {
+        color: white;
+        padding: 0;
+      }
+      img {
+        height: 33px;
+      }
+    }
+      h3 {
+        margin-top: 20px;
+        font-size: 15px;
+        color: white;
+      }
+      div {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        text-align: center;
+        label {
+          color: white;
+        }
+        input {
+          width: 250px;
+          border-radius: 50px;
+          padding: 5px;
+        }
+      }
+    }
+  }
+
+  footer .copyright {
+    label {
+      display: flex;
+      justify-content: center;
+      color: white;
+      padding: 30px;
+      font-size: 12px;
+    }
+  }
+}

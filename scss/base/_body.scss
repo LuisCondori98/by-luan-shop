@@ -1,0 +1,32 @@
+@media (min-width: 1280px) {
+body {
+    background-image: url(../img/fondo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+  body {
+    background-image: url(../img/fondo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 769px) {
+  body {
+    background-image: url(../img/fondo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
+
+@media (min-width: 1px) and (max-width: 480px) {
+  body {
+    background-image: radial-gradient(circle at 120.71% 50%, #ffb2f8 0, #ffb0eb 3.33%, #ffaede 6.67%, #ffadd0 10%, #ffaec3 13.33%, #ffafb6 16.67%, #ffb1aa 20%, #ffb59e 23.33%, #ffb893 26.67%, #ffbd89 30%, #ffc181 33.33%, #ffc67a 36.67%, #ffcb75 40%, #fdcf72 43.33%, #f1d471 46.67%, #e4d872 50%, #d7dc75 53.33%, #c8e07a 56.67%, #bae381 60%, #aae68a 63.33%, #9ae894 66.67%, #89eaa0 70%, #76ecac 73.33%, #61edb9 76.67%, #48eec6 80%, #5edad0 83.33%, #00efe2 86.67%, #00efef 90%, #00effc 93.33%, #00eeff 96.67%, #00ecff 100%);
+  }
+}
